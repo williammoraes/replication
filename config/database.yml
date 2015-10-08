@@ -1,0 +1,15 @@
+development: &default_configuration
+  adapter: oracle_enhanced
+  database: SHARED_LIST_DEV
+  username: SHARED_LIST_DEV
+  password: SHARED_LIST_DEV
+
+test:
+  <<: *default_configuration
+  username: SHARED_LIST_DEV
+  password: SHARED_LIST_DEV
+
+production:
+  <<: *default_configuration
+  username: SHARED_LIST_DEV
+  password: SHARED_LIST_DEV

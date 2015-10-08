@@ -1,0 +1,10 @@
+octopus:
+  replicated: true
+  environments:
+    - development
+  development:
+    slave1:
+      adapter: oracle_enhanced
+      database: SHARED_LIST_DEV_2
+      username: SHARED_LIST_DEV
+      password: SHARED_LIST_DEV
